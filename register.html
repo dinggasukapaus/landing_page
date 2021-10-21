@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="custome.css">
 
     <title>Hello, world!</title>
 </head>
@@ -51,40 +50,43 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-sm-12">
-                <strong>Register</strong>
+                <h2 class="font-heading">Register</h2>
             </div>
         </div>
         <from>
-            <div class="row mt-5">
+            <div class="row mt-3">
                 <div class="col-sm-2">Email</div>
-                <div class="col-sm-4"><input type="text" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="text" class="form-control border border-dark rounded-0" id="inputPassword"></div>
                 <div class="col-sm-2">Date of Birth</div>
-                <div class="col-sm-4"><input type="text" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="text" class="form-control border border-dark rounded-0" id="inputPassword"></div>
             </div>
             <div class="row mt-2">
                 <div class="col-sm-2">Password</div>
-                <div class="col-sm-4"><input type="password" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="password" class="form-control border border-dark rounded-0" id="inputPassword"></div>
                 <div class="col-sm-2">No KTP</div>
-                <div class="col-sm-4"><input type="text" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="text" class="form-control border border-dark rounded-0" id="inputPassword"></div>
             </div>
             <div class="row mt-2">
                 <div class="col-sm-2">Confirm password</div>
-                <div class="col-sm-4"><input type="password" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="password" class="form-control border border-dark rounded-0" id="inputPassword"></div>
                 <div class="col-sm-2">Handphone No</div>
-                <div class="col-sm-4"><input type="text" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="text" class="form-control border border-dark rounded-0" id="inputPassword"></div>
             </div>
             <div class="row mt-2">
                 <div class="col-sm-2">Full name</div>
-                <div class="col-sm-4"><input type="text" class="form-control" id="inputPassword"></div>
+                <div class="col-sm-4"><input type="text" class="form-control border border-dark rounded-0" id="inputPassword"></div>
             </div>
         </from>
     </div>
     <div class="container">
-        <div class="card mt-5">     
-            <div class="card-body">
+        <div class="card border-0 mt-5">     
+            <div class="card-body bg-register">
                 <p class="card-text">Pastian seluruh data registrasi yang diisi sudah benar . <strong>Data yangg sudah diinput tidak dapat diubah</strong> </p>
-                <p class="card-text">Pastian seluruh data registrasi yang diisi sudah benar . <strong>Data yangg sudah diinput tidak dapat diubah</strong> </p>
+                <p class="card-text fst-italic">Pastian seluruh data registrasi yang diisi sudah benar . <strong>Data yangg sudah diinput tidak dapat diubah</strong> </p>
             </div>
+        </div>
+        <div class="d-grid col-2 mx-auto mt-5">
+            <button class="btn btn-dark rounded-0" type="button">Button</button>
         </div>
     </div>
     <!-- Bootstrap Bundle with Popper -->

@@ -1,0 +1,9 @@
+.font-heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-stretch: condensed;
+  font-weight: 900;
+}
+
+.bg-register {
+  background-color: #fff3cd;
+}
