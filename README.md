@@ -4,4 +4,5 @@
 2. halaman 2 [ ]
 3. halaman 2.2 [ ]
 4. halaman 3 [ ]
-5. register [ ]
+5. login [x]
+6. register [x]
