@@ -7,3 +7,29 @@
 .bg-register {
   background-color: #fff3cd;
 }
+.bg-event-light {
+  background-color: rgba(243, 243, 243, 1);
+}
+.bg-event-dark {
+  background-color: rgba(215, 215, 215, 1);
+}
+
+.h-386 {
+  height: 386px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-32 {
+  font-size: 32px;
+}
